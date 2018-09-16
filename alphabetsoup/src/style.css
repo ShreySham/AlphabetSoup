@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-image: url('soupie.png');
+}
+#quick, #multi{
+    margin-top: 50px;
+}
+#quick{
+    width: 300px;
+    height: 80vh;;
+    background-color: #002BC6;
+    width: 99%;
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0.9;
+    text-align: center;
+}
+#multi{
+    width: 300px;
+    height: 80vh;
+    background-color: #C6002B;
+    width: 99%;
+    vertical-align: middle;
+    opacity: 0.9;
+}
+#multi&hover{
+    box-shadow: 0 4px 8px 0 rgba(0.5, 0.5, 0, 1), 0 60px 40px 0 rgba(0.5, 0, 0, 0.5);
+}
+#main-menu-holder{
+    display: flex;
+    height: 100%;
+    
+}
+#account-form{
+    width: 500px;
+    height: 85vh;
+    box-shadow: 0 4px 8px 0 rgba(0.5, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*background-image: url('ProductsPg_WhlWhtSqr_SML.png');*/
+    background-color: white;
+    
+
+}
+#account-banner{
+    background-image: linear-gradient(to right, #008F29 ,#C4FE82);
+}
+#account-button{
+    background-color: #008F29;
+    float: left;
+    /*margin-left: 10px;*/
+}
+.heading-text{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+/*.wrapper{
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}*/
